@@ -49,10 +49,21 @@ table, caption, tbody, tfoot, thead, tr, th, td {
                              * #006276 - blue
                              *
                              * */
+/* Altera webfont */
+@font-face {
+    font-family: 'alteraregular';
+    src: url('altera-webfont.eot');
+    src: url('altera-webfont.eot?#iefix') format('embedded-opentype'),
+         url('altera-webfont.woff') format('woff'),
+         url('altera-webfont.ttf') format('truetype'),
+         url('altera-webfont.svg#alteraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 /* BG IMAGE PATH url('../images/my_image.gif') */
 /*the main global rules*/
-body{font-family:Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#FFFFFF;}
+body{font-family:'alteraregular', Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#FFFFFF;}
 div#wrap{}
   
   
