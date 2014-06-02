@@ -27,5 +27,5 @@ include_once DATAPATH.'meta_tags.php';
 </head>
 <body id="<?php echo $filename; ?>">
   <div id="wrap">
-  <h1>--Main Heading--</h1>
-  <h2 id="subheading">--Sub Heading--</h2>
+  <h1>Sarah Noor Jewellery</h1>
+  <h2 id="subheading"></h2>
