@@ -64,14 +64,28 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 /* BG IMAGE PATH url('../images/my_image.gif') */
 /*the main global rules*/
 body{font-family:'alteraregular', Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#FFFFFF;}
-div#wrap{}
+div#wrap{
+  width: 1130px;
+  margin: 0 auto;
+  position: relative;
+}
   
   
 /*grouped selectors - good for position:absolute and relative*/
 
 
 /*main heading and sub heading*/
-
+h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 160px;
+  letter-spacing: 20px;
+  border-bottom: 1px solid #999;
+}
+h1 a {
+  text-decoration: none;
+  color: #666;
+}
 
   
 /*content area*/
@@ -87,12 +101,35 @@ div#contents{}
 
   
 /*main navbar*/
-ul#navbar{}
-ul#navbar li{}
+ul#navbar{
+width: 480px;
+text-transform: capitalize;
+position: absolute;
+right: 0;
+top: 40px;
+}
+ul#navbar li{
+  width: 220px;
+  float: left;
+  font-size: 13px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #999;
+  margin-left: 20px;
+  line-height: 40px;
+}
+ul li#nav-about, ul li#nav-contact {
+  border: none;
+}
   
 div#clear {clear:left;}
-ul#navbar li a{text-decoration:none;}
-
+ul#navbar li a{
+  text-decoration:none;
+  color: #666;
+}
+/* heading already links to home page */
+#nav-home {
+  display: none;
+}
   
 /*footer image link - arup designs*/
 #footer{}
