@@ -18,5 +18,13 @@
   pageTracker._trackPageview();
   } catch(err) {}</script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="<?php
+echo JSPATH.'responsiveCarousel.min.js';
+?>"></script>
+<script>
+  jQuery(document).ready(function($){
+$('.crsl-items').carousel({ overflow: true, visible: 2, itemMinWidth: 400, itemMargin: 0 });
+});
+</script>
 </body>
 </html>
