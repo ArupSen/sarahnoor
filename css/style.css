@@ -130,14 +130,17 @@ ul#navbar li a{
 #nav-home {
   display: none;
 }
-  
+/* collection pages with gallery */
+div.crsl-wrap {
+  width: 5000px !important;
+}
 /*footer image link - arup designs*/
 #footer{}
 
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
   /*  global rules*/
-    div#wrap{overflow:hidden;}/*safari rule*/
+    div#wrap{}/*safari rule*/
 
     /*  navbar*/
       
