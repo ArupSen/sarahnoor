@@ -132,7 +132,47 @@ ul#navbar li a{
 }
 /* collection pages with gallery */
 div.crsl-wrap {
-  width: 5000px !important;
+  width: 50000px !important;
+  margin-top: -15px;
+}
+a.previous {
+  position: absolute;
+  top: 450px;
+  z-index: 2;
+  padding-left: 15px;
+}
+a.next {
+  position: absolute;
+  right: 0;
+  top: 450px;
+  z-index: 2;
+  text-align: right;
+  padding-right: 15px;
+}
+a.next, a.previous {
+  text-decoration: none;
+  font-size: 50px;
+  color: #333;
+  border: 1px solid #ccc;
+  width: 1em;
+  background: #FFF;
+  opacity: 0.7;
+  box-shadow: 2px 2px 1px #ccc;
+}
+figure.crsl-item {
+  width: 800px !important;
+}
+figure p {
+  width: 400px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-left: 100px;
+  position: absolute;
+  top: 100px;
+  height: 400px;
+  background: #FFF;
+  opacity: 0.7;
+  font-size: 1.4em;
 }
 /*footer image link - arup designs*/
 #footer{}
