@@ -163,16 +163,17 @@ figure.crsl-item {
   width: 800px !important;
 }
 figure p {
-  width: 400px;
+  width: 600px;
   text-align: center;
-  border: 1px solid #ccc;
-  margin-left: 100px;
   position: absolute;
-  top: 100px;
-  height: 400px;
+  top: 0;
+  height: 300px;
   background: #FFF;
-  opacity: 0.7;
-  font-size: 1.4em;
+  opacity: 0.8;
+  font-size: 1.3em;
+  padding-top: 300px;
+  letter-spacing: 1px;
+  line-height: 1.8em;
 }
 /*footer image link - arup designs*/
 #footer{}
