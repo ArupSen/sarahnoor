@@ -2,10 +2,10 @@
 // -- function.php --
 //
 // // takes three arguments of src, title and id
-// // .jpg extension can be omitted
+// // .jpg extension or other is required
  function img_tag($src='',$title='',$id='')
  {
-  echo '<img src="'.IMGPATH.$src.'" title="'.$title.'" alt="" id="'.$id.'" />';
+  echo '<img src="'.IMGPATH.$src.'" title="'.$title.'" alt="" id="'.$id.'" class="img-responsive" />';
   }
 
 

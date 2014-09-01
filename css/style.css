@@ -20,35 +20,35 @@ small, strike, strong, sub, sup, tt, var,
 dd, dl, dt, li, ol, ul,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0;
-      padding: 0;
-        border: 0;
-          font-weight: inherit;
-            font-style: inherit;
-              font-size: 100%;
-                font-family: inherit;
-                  text-align: left;
-                    vertical-align: baseline;
-                  }
-                  a img, :link img, :visited img {border: 0;}
-                  table {
-                      border-collapse: collapse;
-                        border-spacing: 0;}
-                        ol, ul {list-style: none;}
-                        q:before, q:after,
-                        blockquote:before, blockquote:after {
-                            content: "";}
-                            /*    after the zeroing out what next ???*/
-                                
-                            /* COLOUR PALETTE
-                             *
-                             * #C9C9C9 - very pale grey
-                             * #B0B0B0 - medium grey
-                             * #666666 - darker grey
-                             * #B31E00 - red
-                             * #006276 - blue
-                             *
-                             * */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  text-align: left;
+  vertical-align: baseline;
+}
+a img, :link img, :visited img {border: 0;}
+table {
+  border-collapse: collapse;
+border-spacing: 0;}
+ol, ul {list-style: none;}
+q:before, q:after,
+blockquote:before, blockquote:after {
+content: "";}
+/*    after the zeroing out what next ???*/
+
+/* COLOUR PALETTE
+ *
+ * #C9C9C9 - very pale grey
+ * #B0B0B0 - medium grey
+ * #666666 - darker grey
+ * #B31E00 - red
+ * #006276 - blue
+ *
+ * */
 /* Altera webfont */
 @font-face {
     font-family: 'alteraregular';
@@ -65,7 +65,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 /*the main global rules*/
 body{font-family:'alteraregular', Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#FFFFFF;}
 div#wrap{
-  width: 1130px;
+  width: 80%;
   margin: 0 auto;
   position: relative;
 }
@@ -75,12 +75,17 @@ div#wrap{
 
 
 /*main heading and sub heading*/
+.heading {
+  height: 160px;
+  border-bottom: 1px solid #999;
+}
 h1 {
   text-transform: uppercase;
   font-size: 28px;
   line-height: 160px;
   letter-spacing: 20px;
-  border-bottom: 1px solid #999;
+  width: 370px;
+  margin: 0 auto;
 }
 h1 a {
   text-decoration: none;
@@ -101,7 +106,7 @@ div#contents{}
 
   
 /*main navbar*/
-ul#navbar{
+/*ul#navbar{
 width: 480px;
 text-transform: capitalize;
 position: absolute;
@@ -120,15 +125,15 @@ ul#navbar li{
 ul li#nav-about, ul li#nav-contact {
   border: none;
 }
-  
+ */ 
 div#clear {clear:left;}
 ul#navbar li a{
   text-decoration:none;
   color: #666;
 }
-/* heading already links to home page */
-#nav-home {
-  display: none;
+/* home page */
+#index img {
+  margin: 0 auto;
 }
 /* collection pages with gallery */
 div.crsl-wrap {

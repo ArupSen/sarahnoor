@@ -29,5 +29,6 @@ include_once DATAPATH.'meta_tags.php';
 </head>
 <body id="<?php echo $filename; ?>">
   <div id="wrap">
+<div class="heading">
   <h1><a href="index.php">Sarah Noor</a></h1>
-  <h2 id="subheading"></h2>
+</div>

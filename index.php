@@ -10,6 +10,6 @@ navbar();
 
 <?php 
 // filename, title, id
-// img_tag('','',''); ?>
+img_tag('home-page-image-final.jpg','',''); ?>
 
 <?php footer(); ?>

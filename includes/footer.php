@@ -18,11 +18,11 @@
   pageTracker._trackPageview();
   } catch(err) {}</script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="<?php
 echo JSPATH.'responsiveCarousel.min.js';
 ?>"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script>
   jQuery(document).ready(function($){
 $('.crsl-items').carousel({ overflow: true, visible: 2, itemMinWidth: 400, itemMargin: 0 });
