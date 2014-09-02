@@ -84,10 +84,10 @@ h1 {
   font-size: 28px;
   line-height: 160px;
   letter-spacing: 20px;
-  width: 370px;
+  width: 380px;
   margin: 0 auto;
 }
-h1 a {
+h1 a, h1 a:hover {
   text-decoration: none;
   color: #666;
 }
@@ -179,6 +179,16 @@ figure p {
   padding-top: 300px;
   letter-spacing: 1px;
   line-height: 1.8em;
+}
+/* contact page */
+.numbers {
+letter-spacing: 1px;
+}
+.numbers dt {
+  /* font-weight: bold; */
+  margin-top: 20px;
+  color: #000;
+  white-space: nowrap;
 }
 /*footer image link - arup designs*/
 #footer{}
