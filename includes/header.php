@@ -11,16 +11,17 @@ include_once DATAPATH.'meta_tags.php';
 
 <html lang="en">
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=8" />
+     <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <?php // leave in during development and remove once live ?>
   <meta name="robots" content="noindex, nofollow">
   
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   
   <meta name="description" content="<?php echo ${$filename}['description']; ?>" />
   <meta name="keywords" content="<?php echo ${$filename}['keywords']; ?>" />
 
-  <title><?php echo ${$filename}['title']; ?></title>
+  <title>Sarah Noor | <?php echo ${$filename}['title']; ?></title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo CSSPATH.'style.css'; ?>" type="text/css" media="screen" />
