@@ -13,7 +13,7 @@
         <span class="icon-bar"></span>
       </button>
 <div class="collapse navbar-collapse" id="navbar-collapsing">
-<ul id="navbar" class="nav navbar-nav">
+<ul id="navbar" class="nav nav-justified">
   <li id="nav-about"><a href="about.php" title="about"><span class="tab">About</span></a></li>
  
   <li id="nav-collections" class="dropdown"><a href="#" title="collections" class="dropdown-toggle" data-toggle="dropdown">Collections <span class="caret"></span></a>
