@@ -131,6 +131,19 @@ ul#navbar li a{
   text-decoration:none;
   color: #666;
 }
+/* bootstrap override for navbar */
+.nav>li>a {
+  padding:0;
+}
+.navbar-default {
+  border: none;
+  background: transparent;
+}
+.navbar {
+  min-height: 0;
+  margin-bottom: -7px;
+  top: -23px;
+}
 /* home page */
 #index img {
   margin: 0 auto;
@@ -165,18 +178,18 @@ a.next, a.previous {
   box-shadow: 2px 2px 1px #ccc;
 }
 figure.crsl-item {
-  width: 800px !important;
+  width: 400px !important;
 }
 figure p {
-  width: 600px;
+  width: 400px;
   text-align: center;
   position: absolute;
-  top: 0;
+  top: 100px;
   height: 300px;
   background: #FFF;
   opacity: 0.8;
   font-size: 1.3em;
-  padding-top: 300px;
+  padding-top: 100px;
   letter-spacing: 1px;
   line-height: 1.8em;
 }
