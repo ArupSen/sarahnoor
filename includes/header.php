@@ -29,7 +29,7 @@ include_once DATAPATH.'meta_tags.php';
 
 </head>
 <body id="<?php echo $filename; ?>">
-  <div id="wrap">
+  <div id="wrap" class="container">
 <div class="heading">
   <h1><a href="index.php">Sarah Noor</a></h1>
 </div>
