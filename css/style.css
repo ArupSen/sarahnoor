@@ -144,6 +144,10 @@ ul#navbar li a{
   margin-bottom: -7px;
   top: -23px;
 }
+.navbar-toggle {
+  margin-top: -17px;
+  margin-right: -15px;
+}
 /* home page */
 #index img {
   margin: 0 auto;
