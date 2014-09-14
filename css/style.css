@@ -152,6 +152,11 @@ ul#navbar li a{
 #index img {
   margin: 0 auto;
 }
+/* about page */
+#about #contents p {
+  text-align: center;
+  margin-bottom: 1em;
+}
 /* collection pages with gallery */
 div.crsl-wrap {
   width: 50000px !important;
