@@ -10,6 +10,7 @@
  * */
 
 
+/* Eric Meyer css Reset */
 
 html, body, div, span,
 applet, object, iframe,
@@ -105,27 +106,6 @@ div#contents{}
 #contents a:hover{}
 
   
-/*main navbar*/
-/*ul#navbar{
-width: 480px;
-text-transform: capitalize;
-position: absolute;
-right: 0;
-top: 40px;
-}
-ul#navbar li{
-  width: 220px;
-  float: left;
-  font-size: 13px;
-  letter-spacing: 1px;
-  border-bottom: 1px solid #999;
-  margin-left: 20px;
-  line-height: 40px;
-}
-ul li#nav-about, ul li#nav-contact {
-  border: none;
-}
- */ 
 div#clear {clear:left;}
 ul#navbar li a{
   text-decoration:none;
@@ -157,7 +137,7 @@ ul#navbar li a{
   text-align: center;
   margin-bottom: 1em;
 }
-/* collection pages with gallery */
+/* collection pages with gallery and campaign page */
 div.crsl-wrap {
   width: 50000px !important;
   margin-top: -15px;
