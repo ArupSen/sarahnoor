@@ -22,6 +22,8 @@ include_once DATAPATH.'meta_tags.php';
   <meta name="keywords" content="<?php echo ${$filename}['keywords']; ?>" />
 
   <title>Sarah Noor | <?php echo ${$filename}['title']; ?></title>
+<!-- font awesome -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo CSSPATH.'style.css'; ?>" type="text/css" media="screen" />
