@@ -77,8 +77,9 @@ div#wrap{
 
 /*main heading and sub heading*/
 .heading {
-  height: 160px;
+  height: 170px;
   border-bottom: 1px solid #999;
+  margin-top: -10px;
 }
 h1 {
   text-transform: uppercase;
@@ -96,7 +97,11 @@ h1 a, h1 a:hover {
   
 /*content area*/
 div#contents{}
-#contents p{}
+#contents p{
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 1.5;
+}
 
 #contents ul, #contents h2{}
 
@@ -110,6 +115,8 @@ div#clear {clear:left;}
 ul#navbar li a{
   text-decoration:none;
   color: #666;
+  font-size: 16px;
+  letter-spacing: 1.2px;
 }
 /* bootstrap override for navbar */
 .nav>li>a {
@@ -122,7 +129,7 @@ ul#navbar li a{
 .navbar {
   min-height: 0;
   margin-bottom: -7px;
-  top: -23px;
+  top: -40px;
 }
 .navbar-toggle {
   margin-top: -17px;
@@ -136,6 +143,10 @@ ul#navbar li a{
 #about #contents p {
   text-align: center;
   margin-bottom: 1em;
+  font-size: 14px;
+}
+#about #contents .col-md-6 {
+margin-top: 50px;
 }
 /* collection pages with gallery and campaign page */
 div.crsl-wrap {
@@ -147,10 +158,11 @@ a.previous {
   top: 450px;
   z-index: 2;
   padding-left: 15px;
+  left: 260px;
 }
 a.next {
   position: absolute;
-  right: 0;
+  right: 260px;
   top: 450px;
   z-index: 2;
   text-align: right;
@@ -158,29 +170,35 @@ a.next {
 }
 a.next, a.previous {
   text-decoration: none;
-  font-size: 50px;
-  color: #333;
-  border: 1px solid #ccc;
+  font-size: 60px;
+  color: #7A7272;
+  /*border: 1px solid #ccc;*/
   width: 1em;
   background: #FFF;
   opacity: 0.7;
-  box-shadow: 2px 2px 1px #ccc;
+  /*box-shadow: 2px 2px 1px #ccc;*/
 }
 figure.crsl-item {
   width: 400px !important;
+  margin: 0 150px !important;
+  left: -640px;
 }
 figure p {
   width: 400px;
   text-align: center;
   position: absolute;
-  top: 100px;
-  height: 300px;
+  top: 0px;
+  height: 500px;
   background: #FFF;
-  opacity: 0.8;
+  opacity: 0.9;
   font-size: 1.3em;
-  padding-top: 100px;
+  padding-top: 180px;
   letter-spacing: 1px;
   line-height: 1.8em;
+}
+figure p:nth-of-type(2){
+  background: transparent;
+  opacity:1;
 }
 /* contact page */
 .numbers {
