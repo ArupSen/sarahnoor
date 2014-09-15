@@ -28,6 +28,7 @@ echo JSPATH.'responsiveCarousel.min.js';
 $('.crsl-items').carousel({ overflow: true, visible: 2, itemMinWidth: 400, itemMargin: 0 });
 });
 // hover to reveal the item details
+$('figure img').after('<p>');
 $('figure p').hide();
 $('figure').on('mouseenter', function() {
   $(this).find('p').fadeIn();
