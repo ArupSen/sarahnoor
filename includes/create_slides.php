@@ -4,7 +4,7 @@
 // for the collection pages
 ?>
 <div id="NAV-ID" class="crsl-nav">
-  <a href="#" class="previous">&lt;</a>
+  <a href="#" class="previous"><i class="fa fa-caret-left"></i></a>
   <a href="#" class="next">&gt;</a>
 </div>
 <div class="crsl-items" data-navigation="NAV-ID">
