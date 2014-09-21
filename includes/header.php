@@ -22,6 +22,8 @@ include_once DATAPATH.'meta_tags.php';
   <meta name="keywords" content="<?php echo ${$filename}['keywords']; ?>" />
 
   <title>Sarah Noor | <?php echo ${$filename}['title']; ?></title>
+<!-- Google webfonts Lato -->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 <!-- font awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- Latest compiled and minified CSS -->
@@ -34,4 +36,7 @@ include_once DATAPATH.'meta_tags.php';
   <div id="wrap" class="container">
 <div class="heading">
   <h1><a href="index.php">Sarah Noor</a></h1>
+  <div class="social-icons">
+    <i class="fa fa-instagram"></i><i class="fa fa-twitter-square"></i>
+  </div>
 </div>
