@@ -2,8 +2,8 @@
 // -- navbar.php --
 ?>
 <div class="row">
-<div class="col-md-3"></div>
-<div class="col-md-6">
+<div class="col-md-2"></div>
+<div class="col-md-8">
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsing">
@@ -30,7 +30,7 @@
  </div><!-- /.container-fluid -->
 </nav>
 </div><!-- .col-md-6 -->
-<div class="col-md-3"></div>
+<div class="col-md-2"></div>
 </div><!-- .row -->
 <div id="clear"></div>
 <div id="contents">
