@@ -16,7 +16,7 @@
 <ul id="navbar" class="nav nav-justified">
   <li id="nav-about"><a href="about.php" title="about"><span class="tab">About</span></a></li>
  
-  <li id="nav-collections" class="dropdown"><a href="#" title="collections" class="dropdown-toggle" data-toggle="dropdown">Collections <span class="caret"></span></a>
+  <li id="nav-collections" class="dropdown"><a href="#" title="collections" class="dropdown-toggle">Collections <span class="caret"></span></a>
 <ul class="dropdown-menu" role="menu">
 <li><a href="pretty.php" title="pretty little things">Pretty little things</a></li>
 <li><a href="pyramids.php" title="pyramids">Pyramids</a></li>
