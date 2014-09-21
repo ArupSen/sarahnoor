@@ -86,18 +86,28 @@ h1 {
   font-size: 28px;
   line-height: 160px;
   letter-spacing: 20px;
-  width: 380px;
-  margin: 0 auto;
+/*  width: 380px;*/
+ /* margin: 0 auto;*/
+  text-align: center;
+  word-spacing: -10px;
 }
 h1 a, h1 a:hover {
   text-decoration: none;
   color: #666;
+  font-family: 'alteraregular';
 }
 .social-icons {
-position: absolute;
-top: 20px;
-right: 160px;
-color: #666;
+font-size: 30px;
+margin-top: 13px;
+}
+.social-icons a {
+color: #837F7F;
+}
+.social-icons a:hover {
+  color: #666;
+}
+.social-icons i {
+margin: 0 1px;
 }
   
 /*content area*/
@@ -106,6 +116,7 @@ div#contents{}
   font-size: 14px;
   letter-spacing: 0.7px;
   line-height: 1.5;
+  font-weight: 300;
 }
 
 #contents ul, #contents h2{}
@@ -121,7 +132,12 @@ ul#navbar li a{
   text-decoration:none;
   color: #666;
   font-size: 16px;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+li#nav-collections {
+padding-bottom: 10px;
 }
 /* bootstrap override for navbar */
 .nav>li>a {
@@ -136,7 +152,7 @@ ul#navbar li a{
 }
 .navbar {
   min-height: 0;
-  margin-bottom: -7px;
+  margin-bottom: -17px;
   top: -40px;
 }
 .navbar-toggle {
@@ -161,6 +177,7 @@ li.dropdown:hover .dropdown-menu {
   text-align: center;
   margin-bottom: 1em;
   font-size: 14px;
+  font-weight: 300;
 }
 #about #contents .col-md-6 {
 margin-top: 50px;
@@ -195,6 +212,9 @@ a.next, a.previous {
   opacity: 0.7;
   /*box-shadow: 2px 2px 1px #ccc;*/
 }
+#pyramids a.previous, #pyramids a.next, #pretty a.previous, #pretty a.next {
+  top: 320px;
+}
 figure.crsl-item {
   width: 400px !important;
   margin: 0 150px !important;
@@ -209,7 +229,7 @@ figure p {
   background: #FFF;
   opacity: 0.9;
   font-size: 1.3em;
-  padding-top: 180px;
+  padding-top: 140px;
   letter-spacing: 1px;
   line-height: 1.8em;
 }
@@ -223,12 +243,26 @@ figure p:nth-of-type(2){
 /* contact page */
 .numbers {
 letter-spacing: 1px;
+font-weight: 300;
+font-size: 15px;
+padding-left: 15px;
 }
 .numbers dt {
   /* font-weight: bold; */
-  margin-top: 20px;
+  margin-top: 16px;
   color: #000;
   white-space: nowrap;
+}
+dt a {
+  color: #666;
+}
+dt a:hover {
+  text-decoration: none;
+  color: #666;
+}
+.numbers .credits {
+  font-size: 80%;
+  color: #666;
 }
 /* .numbers dd span {
   color: #ccc;
@@ -237,6 +271,7 @@ letter-spacing: 1px;
 /* press page */
 #press #contents h2 {
   text-align: center;
+  font-weight: 300;
 }
 
 /*footer image link - arup designs*/
