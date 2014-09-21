@@ -4,8 +4,12 @@
 // for the collection pages
 ?>
 <div id="NAV-ID" class="crsl-nav">
-  <a href="#" class="previous"><i class="fa fa-caret-left"></i></a>
-  <a href="#" class="next">&gt;</a>
+  <a href="#" class="previous"><?php
+  img_tag('arrow-left.jpg','','');
+  ?></a>
+  <a href="#" class="next"><?php
+  img_tag('arrow-right.jpg','','');
+  ?></a>
 </div>
 <div class="crsl-items" data-navigation="NAV-ID">
   <div class="crsl-wrap">
