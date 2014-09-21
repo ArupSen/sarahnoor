@@ -6,7 +6,7 @@ navbar();
 
 // the unique contents will go here up to the footer
 ?>
-
+<h2>Coming Soon</h2>
 
 <?php 
 // filename, title, id
