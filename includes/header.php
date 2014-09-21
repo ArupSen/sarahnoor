@@ -36,7 +36,4 @@ include_once DATAPATH.'meta_tags.php';
   <div id="wrap" class="container">
 <div class="heading">
   <h1><a href="index.php">Sarah Noor</a></h1>
-  <div class="social-icons">
-    <i class="fa fa-instagram"></i><i class="fa fa-twitter-square"></i>
-  </div>
 </div>
