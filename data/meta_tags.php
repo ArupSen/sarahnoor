@@ -22,7 +22,17 @@ $contact = array(
   'description' => '',
   'keywords' => '');
 
-$collections = array(
+$pretty = array(
+  'title' => '',
+  'description' => '',
+  'keywords' => '');
+
+$campaign = array(
+  'title' => '',
+  'description' => '',
+  'keywords' => '');
+
+$pyramids = array(
   'title' => '',
   'description' => '',
   'keywords' => '');
