@@ -11,7 +11,7 @@ Diamond wt.ct: .27ct<br />
 Composed of 18k yellow gold<br />
 '),
   array('Bracelet1','Pyamid Bracelet Alternating Diamonds (Large)<br />
-Diamond wt.ct: 3.5ct<br />
+Diamond wt.ct: .50ct<br />
 Composed of 18k yellow gold<br />
 '),
   array('Earrings1','Swirl Ring<br />
