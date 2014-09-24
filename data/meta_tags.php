@@ -8,37 +8,37 @@
 // // keywords - 1024 characters
 //
 $index = array(
-  'title' => '',
+  'title' => 'Home',
   'description' => '',
   'keywords' => '');
   
 $about = array(
-  'title' => '',
+  'title' => 'About',
   'description' => '',
   'keywords' => '');
   
 $contact = array(
-  'title' => '',
+  'title' => 'Contact',
   'description' => '',
   'keywords' => '');
 
 $pretty = array(
-  'title' => '',
+  'title' => 'Pretty Little Things',
   'description' => '',
   'keywords' => '');
 
 $campaign = array(
-  'title' => '',
+  'title' => 'Campaign',
   'description' => '',
   'keywords' => '');
 
 $pyramids = array(
-  'title' => '',
+  'title' => 'Pyramids',
   'description' => '',
   'keywords' => '');
 
 $press = array(
-  'title' => '',
+  'title' => 'Press',
   'description' => '',
   'keywords' => '');
 ?>
