@@ -3,12 +3,12 @@
 // set the slide navigation and create images with captions
 // for the collection pages
 ?>
-<div id="NAV-ID" class="crsl-nav">
+<div id="NAV-ID" class="crsl-nav col-md-8">
   <a href="#" class="previous"><?php
-  img_tag('arrow-left.jpg','','');
+  img_tag('arrow-left.jpg');
   ?></a>
   <a href="#" class="next"><?php
-  img_tag('arrow-right.jpg','','');
+  img_tag('arrow-right.jpg');
   ?></a>
 </div>
 <div class="crsl-items" data-navigation="NAV-ID">
