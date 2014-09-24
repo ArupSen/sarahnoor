@@ -64,13 +64,11 @@ content: "";}
 }
 /* BG IMAGE PATH url('../images/my_image.gif') */
 /*the main global rules*/
-body{font-family:'Lato', Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#FFFFFF;}
+body{font-family:'Lato', Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#FFFFFF;color: #666;}
 div#wrap{
-  width: 80%;
   margin: 0 auto;
   position: relative;
 }
-  
   
 /*grouped selectors - good for position:absolute and relative*/
 
@@ -89,7 +87,13 @@ h1 {
 /*  width: 380px;*/
  /* margin: 0 auto;*/
   text-align: center;
-  word-spacing: -10px;
+  word-spacing: -28px;
+  white-space:nowrap;
+}
+@media all and (max-width: 768px) {
+  h1{
+    font-size: 1.3em;
+  }
 }
 h1 a, h1 a:hover {
   text-decoration: none;
@@ -111,7 +115,6 @@ margin: 0 1px;
 }
   
 /*content area*/
-div#contents{}
 #contents p{
   font-size: 14px;
   letter-spacing: 0.7px;
@@ -119,15 +122,8 @@ div#contents{}
   font-weight: 300;
 }
 
-#contents ul, #contents h2{}
-
-#contents h2{}
-#contents li{}
-#contents a{}
-#contents a:hover{}
-
-  
 div#clear {clear:left;}
+/* main navigation */
 ul#navbar li a{
   text-decoration:none;
   color: #666;
@@ -135,6 +131,9 @@ ul#navbar li a{
   letter-spacing: 1.3px;
   text-transform: uppercase;
   font-weight: 300;
+}
+ul#navbar li a:hover {
+  color: #ccc;
 }
 li#nav-collections {
 padding-bottom: 10px;
@@ -158,6 +157,7 @@ padding-bottom: 10px;
 .navbar-toggle {
   margin-top: -17px;
   margin-right: -15px;
+  float: left;
 }
 .dropdown-toggle .caret {
   display: none;
@@ -167,6 +167,14 @@ li.dropdown:hover .dropdown-menu {
 }
 .dropdown-menu {
   border-radius: 0;
+  padding: 3px 10px;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+  background-color: #FFF;
+  color: #ccc;
+}
+#nav-collections ul.dropdown-menu li a {
+font-size: 12px;
 }
 /* home page */
 #index img {
@@ -175,29 +183,41 @@ li.dropdown:hover .dropdown-menu {
 /* about page */
 #about #contents p {
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
   font-size: 14px;
   font-weight: 300;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+img.img-responsive.birds {
+max-width: 106%;
+position: relative;
+right: -15px;
 }
 #about #contents .col-md-6 {
-margin-top: 50px;
+margin-top: 0px;
 }
 /* collection pages with gallery and campaign page */
+div#NAV-ID {
+  margin: 0 auto;
+}
+.crsl-nav.col-md-8 {
+  float: none;
+}
 div.crsl-wrap {
   width: 50000px !important;
   margin-top: -15px;
 }
 a.previous {
   position: absolute;
-  top: 450px;
   z-index: 2;
   padding-left: 15px;
-  left: 260px;
+  left: 0px;
 }
 a.next {
   position: absolute;
-  right: 260px;
-  top: 450px;
+  right: 0px;
   z-index: 2;
   text-align: right;
   padding-right: 15px;
@@ -206,6 +226,7 @@ a.next, a.previous {
   text-decoration: none;
   font-size: 60px;
   color: #7A7272;
+  top: 270px;
   /*border: 1px solid #ccc;*/
   width: 1em;
   background: #FFF;
@@ -213,12 +234,35 @@ a.next, a.previous {
   /*box-shadow: 2px 2px 1px #ccc;*/
 }
 #pyramids a.previous, #pyramids a.next, #pretty a.previous, #pretty a.next {
-  top: 320px;
+  top: 150px;
 }
 figure.crsl-item {
-  width: 400px !important;
-  margin: 0 150px !important;
-  left: -640px;
+  max-width: 400px !important;
+  margin-left: 175px;
+}
+@media (min-width: 992px) and (max-width:1199px){
+  figure.crsl-item {
+    margin-left: 72px;
+  }
+}
+@media (min-width: 768px) and (max-width:991px){
+  figure.crsl-item {
+    margin-left: -35px;
+  }
+}
+@media (min-width: 320px) and (max-width:767px){
+  figure.crsl-item {
+    margin-left: -179px;
+  }
+}
+@media (max-width: 320px) {
+  figure.crsl-item {
+    margin-left: 0;
+  }
+  figure p {
+    width: 300px;
+    padding-top: 40px;
+  }
 }
 figure p {
   width: 400px;
@@ -242,23 +286,30 @@ figure p:nth-of-type(2){
 }
 /* contact page */
 .numbers {
-letter-spacing: 1px;
+letter-spacing: 0.7px;
+line-height: 1.5;
 font-weight: 300;
-font-size: 15px;
+font-size: 14px;
 padding-left: 15px;
 }
 .numbers dt {
   /* font-weight: bold; */
   margin-top: 16px;
-  color: #000;
+  color: #666;
   white-space: nowrap;
 }
-dt a {
+.numbers dt:nth-of-type(1),
+.numbers dt:nth-of-type(2),
+.numbers dt:nth-of-type(3){
+  color: #555555;
+  font-size: 14px;
+}
+dt a, dd a {
   color: #666;
 }
-dt a:hover {
+dd a:hover, dt a:hover {
+  color: #ccc;
   text-decoration: none;
-  color: #666;
 }
 .numbers .credits {
   font-size: 80%;
@@ -272,6 +323,8 @@ dt a:hover {
 #press #contents h2 {
   text-align: center;
   font-weight: 300;
+  color: #666;
+  font-size: 14px;
 }
 
 /*footer image link - arup designs*/
