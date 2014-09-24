@@ -10,3 +10,8 @@ Disallow: /data/
 Disallow: /includes/
 Disallow: /inc_path.php
 Disallow: /template.php
+Disallow: /.errordocs/
+Disallow: /css_old/
+Disallow: /js_old/
+Disallow: /old_stuff/
+Disallow: /stats/
