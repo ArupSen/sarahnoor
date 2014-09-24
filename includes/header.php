@@ -21,7 +21,7 @@ include_once DATAPATH.'meta_tags.php';
   <meta name="description" content="<?php echo ${$filename}['description']; ?>" />
   <meta name="keywords" content="<?php echo ${$filename}['keywords']; ?>" />
 
-  <title>Sarah Noor | <?php echo ${$filename}['title']; ?></title>
+  <title>Sarah Noor Jewellery | <?php echo ${$filename}['title']; ?></title>
 <!-- Google webfonts Lato -->
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 <!-- font awesome -->
@@ -35,5 +35,5 @@ include_once DATAPATH.'meta_tags.php';
 <body id="<?php echo $filename; ?>">
   <div id="wrap" class="container">
 <div class="heading">
-  <h1><a href="index.php">Sarah Noor</a></h1>
+  <h1><a href="index.php">Sarah &nbsp; Noor</a></h1>
 </div>
