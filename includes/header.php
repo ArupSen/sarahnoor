@@ -10,14 +10,18 @@ include_once DATAPATH.'meta_tags.php';
 <!DOCTYPE html>
 
 <html lang="en">
+<!--
+Site dev by Arup Sen - arupsen48@gmail.com
+Site design by Alyson Mowat - alysonmowat@gmail.com
+Source code can be found at https://github.com/ArupSen/sarahnoor
+-->
 <head>
-     <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <?php // leave in during development and remove once live ?>
-  <meta name="robots" content="noindex, nofollow">
-  
-  
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+
+
   <meta name="description" content="<?php echo ${$filename}['description']; ?>" />
   <meta name="keywords" content="<?php echo ${$filename}['keywords']; ?>" />
 
