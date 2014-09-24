@@ -15,15 +15,15 @@ navbar();
 <div class="numbers">
 <dl>
     <dt>General inquiries</dt>
-<dd>info<span>@</span>sarahnoor.com</dd><dd> 0207 193 8858</dd>
-    <dt>Orders and wholesale</dt> <dd>orders<span>@</span>sarahnoor.com</dd>
-    <dt>Press</dt> <dd>sophie<span>@</span>5thhousepr.com</dd> <dd>0207 580 8519</dd>
-<dt class="credits"><a href="#">Terms and conditions</a></dt>
+<dd><a href="mailto:info@sarahnoor.com">info<span>@</span>sarahnoor.com</a></dd><dd> <a href="tel://0207 193 8858">0207 193 8858</a></dd>
+    <dt>Orders and wholesale</dt> <dd><a href="mailto:orders@sarahnoor.com">orders<span>@</span>sarahnoor.com</a></dd>
+    <dt>Press</dt> <dd><a href="mailto:sophie@5thhousepr.com">sophie<span>@</span>5thhousepr.com</a></dd> <dd><a href="tel://0207 580 8519">0207 580 8519</a></dd>
+<dt class="credits"><a href="website-terms-and-conditions.pdf">Terms and conditions</a></dt>
   <div class="social-icons">
     <a href="http://instagram.com/sarahnoorjewellery/" title="follow me on instagram" target="_blank"><i class="fa fa-instagram"></i></a><a href="https://twitter.com/sarahalhassan_" title="follow me on twitter" target="_blank"><i class="fa fa-twitter-square"></a></i>
   </div>
-    <dt class="credits">Illustration by</dt> <dd class="credits">Florian Meacci</dd> 
-    <dt class="credits">Website design by</dt> <dd class="credits">Alyson Mowat</dd> 
+    <dt class="credits">Illustration by</dt> <dd class="credits"><a href="mailto:florian.meacci@live.fr">Florian Meacci</a></dd> 
+    <dt class="credits">Website design by</dt> <dd class="credits"><a href="mailto:alysonmowat@gmail.com">Alyson Mowat</a></dd> 
 </dl>
 </div><!-- .col-md-3 -->
 </div>
