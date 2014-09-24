@@ -24,17 +24,19 @@
 echo JSPATH.'responsiveCarousel.min.js';
 ?>"></script>
 <script>
-  jQuery(document).ready(function($){
-$('.crsl-items').carousel({ overflow: true, visible: 2, itemMinWidth: 400, itemMargin: 0 });
-});
-// hover to reveal the item details
-$('figure img').after('<p>');
-$('figure p').hide();
-$('figure').on('mouseenter', function() {
-  $(this).find('p').fadeIn();
-});
-$('figure').on('mouseleave', function() {
-  $(this).find('p').fadeOut();
+jQuery(document).ready(function($){
+  $('.crsl-items').carousel({ overflow: true, visible: 1, itemMinWidth: 300, itemMargin: 200 });
+  // hover to reveal the item details
+  $('figure img').after('<p>');
+  $('figure p').hide();
+  $('figure').on('mouseenter', function() {
+    $(this).find('p').fadeIn();
+  });
+  $('figure').on('mouseleave', function() {
+    $(this).find('p').fadeOut();
+  });
+  // about page
+  $('#contents').find('.col-md-3').eq(0).find('img').addClass('birds');
 });
 </script>
 </body>
