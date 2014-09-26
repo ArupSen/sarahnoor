@@ -14,7 +14,7 @@ img_tag('about-birds.jpg','');
 <div class="col-md-6">
 <p>Sarah Noor Jewellery is the creation of London based fine jewellery designer Sarah Al-Hassan. The onymous fine jewellery line embodies timeless designs with modern aesthetics. </p>
 
-<p>With a Focus on understated elegance, Sarah was inspired to create her first collection of classic staples with a modern twist. From her dainty rings and ear cuffs to her bold pyramid bracelet, Sarah Noor jewellery is the perfect addition to every woman’s jewellery box.</p>
+<p>With a focus on understated elegance, Sarah was inspired to create her first collection of classic staples with a modern twist. From her dainty rings and ear cuffs to her bold pyramid bracelet, Sarah Noor jewellery is the perfect addition to every woman’s jewellery box.</p>
  
 <p>Sarah Noor Jewellery is commited to trendy yet timeless handcrafted pieces. Every piece is skillfully handmade to perfection by some of the world’s most skilled artisans in London. Her team includes casters and setters who have worked for the world’s most prestigious jewellery houses.</p>
  
