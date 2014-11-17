@@ -14,20 +14,20 @@ Composed of 18k yellow gold<br />
 Diamond wt.ct: .50ct<br />
 Composed of 18k yellow gold<br />
 '),
-  array('Earrings1','Swirl Ring<br />
-  Diamond wt.ct: .40ct<br />
+  array('Earrings1','Mini Pyramid Earrings<br />
+  Diamond wt.ct: .27ct<br />
   Composed of 18k yellow gold<br />
 '),
-  array('Earrings2','Multi Row Ear Cuff<br />
-  Diamond wt.ct: .38ct<br />
+  array('Earrings2','Hollow Pyramid Earrings<br />
+  Diamond wt.ct: .55ct<br />
   Composed of 18k yellow gold<br />
 '),
-  array('Necklace1','Triple Hoop Ear Cuff <br />
-  Diamond wt.ct: .30ct<br />
+  array('Necklace1','Mini Pyramid Pendent<br />
+  Diamond wt.ct: .20ct<br />
   Composed of 18k yellow gold<br />
 '),
-  array('Necklace2','Single Ear Cuff<br />
-  Diamond wt.ct: .15ct<br />
+  array('Necklace2','Hollow Pyramid Pendent<br />
+  Diamond wt.ct: .60ct<br />
   Composed of 18k yellow gold<br />
 ')
 );
